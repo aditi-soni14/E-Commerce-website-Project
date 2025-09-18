@@ -1,12 +1,9 @@
  import React, { useEffect, useState } from "react"; 
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../redux/productSlice";
-// import Banner from "../Components/Banner";
-// import ProductCard from "../Components/ProductCard";
-// import CategoryFilter from "../Components/CategoryFilter";
 import Banner from "../components/Banner";
 import ProductCard from "../components/ProductCard";
-import CategoryFilter from "../Components/CategoryFilter";
+import CategoryFilter from "../components/CategoryFilter";
 
 
 function Home() {
