@@ -6,9 +6,8 @@ import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
 import Login from "./pages/Login";
 import SearchResult from "./pages/SearchResult";
-import Header from "./Components/Header";
-import Footer  from "./components/Footer"
- 
+import Footer  from "./components/Footer";
+ import Header from "./components/Header";
 function App() {
   const location = useLocation();
 
